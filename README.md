@@ -9,3 +9,11 @@ The dependency problem becomes interesting when a given feature can be provided 
 ## Further exploration
 
 The dependency problem is often underconstrained, which means that there is usually a lot of possible solutions. And not all those solutions are usually equally good. For Linux distributions for instance, one could take into account the number of packages to install, or their size, etc in order to propose an installation with the minimum number of packages or an installation with the smallest footprint on the hard drive. Those criteria can be easily modeled in an optimization framework by an objective function to minimize, (we can use genetic algorithms here).
+
+## Output
+
+[+] To install libgssapi-krb5-2 <br>
+[..] Checking dependencies.. <br>
+c Building data structures in 0.00s <br>
+c Ready to go with 41 variables and 10 clauses <br>
+[*] Package can be installed? True <br>
